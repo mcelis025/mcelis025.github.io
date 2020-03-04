@@ -1,83 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"><!--Meta for Resizing-->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"><!--Bootstrap-->
-    <link rel="stylesheet" href="style.css">
-
-    <title>Bootstrap Portfolio</title>
+    <title>Miguel's Portfolio</title>
+    <!--Link to my css-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
-    <div class="container-fluid">
-        <div class="row border border-top-0 border-right-0 border-left-0 border-bottom-1 border-secondary shadow bg-white">
-            <div class="col-md-3"></div>
-            <div class="col-md-3 pl-0">
-                <h1 id="myName" class="text-left text-light bg-info pt-2 pl-4 mr-5 mb-0 mt-0">Miguel Celis</h1>
+    <div class="content">
+        <div id="topmenu">
+            <h1 id="myname">Miguel Celis</h1>
+            <!--Links for menu tab--> 
+            <div class="pages">
+            <a href="index.html">About    |</a>
+            <a href="portfolio.html">    Portfolio    |</a>
+            <a href="contact.html">    Contact</a>      
             </div>
-        <div class="col-md-3 pr-0">
-            <div class="navbar navbar-expand-md justify-content-end mt-2 ml-3 mr-0 pr-0">
-                <ul class="navbar-nav">
-                    <li class="nav-item border border-top-0 border-right-1 border-left-0 border-bottom-0 border-secondary">
-                        <a class="nav-link text-secondary lead" href="index.html">About Me</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-secondary lead" href="portfolio.html">Portfolio</a>
-                    </li>
-                    <li class="nav-item border border-top-0 border-right-0 border-left-1 border-bottom-0 border-secondary">
-                        <a class="nav-link text-secondary lead pr-0" href="#">Contact</a>
-                    </li>
-                </ul>
-            </div>
+            <div class="clearfix"></div>
         </div>
-        <div class="col-md-3"></div>
-    </div>
-    </div>
-    <div class="container-fluid">
-    <div class="row">
-        <div class="col-md-3"></div>
-        <div class="col-md-6 border border-secondary mt-5 mb-5 shadow bg-white">
-            <div class="container form-group">
-                <div class="row border border-top-0 border-right-0 border-left-0 border-bottom-1 border-secondary">
-                    <h1 class="col-md-12 text-left text-info mt-3 mb-4">Contact</h1>
-                </div>
-                <div class="row mt-3 pt-2">
-                    <div class="col-md-12">
-                        <label for="usr">Name</label>
-                        <input type="text" class="form-control" id="usr">
-                    </div>
-                </div>
-                <div class="row mt-2 pt-2">
-                    <div class="col-md-12">
-                        <label for="email">Email</label>
-                        <input type="email" class="form-control" id="email">
-                    </div>
-                </div>
-                <div class="row mt-2 pt-2">
-                    <div class="col-md-12">
-                         <label for="message">Message</label>
-                         <textarea class="form-control" rows="5" id="message"></textarea>
-                    </div>
-                </div>
-                <div class="row mt-2 mb-4 pt-2">
-                    <div class="col-md-4">
-                        <input class="btn btn-info btn-lg" type="submit" value="Submit">
-                    </div>
-                    <div class="col-md-8"></div>
-                </div>
+        <!--Contact-->
+            <div class="maintext">
+                <h1 id="sectionname">Contact</h1>
+                <div id="under"></div>
+                <div class="clearfix"></div>
+                    <form>
+                        <br>
+                        <label for="fname">Name</label><br>
+                        <input type="text" id="fname" name="fname" size="200" placeholder="John Smith"><br>
+                        <label for="email">Email</label><br>
+                        <input type="email" id="email" name="email" size="150" placeholder="example@gmail.com"><br>
+                        <label for="message">Message</label><br>
+                        <textarea id="message" name="subject"></textarea><br>
+                        <input id="button" type="submit" value="Submit">    
+                    </form>
             </div>
-        </div>
-        <div class="col-md-3"></div>
     </div>
-    </div>
-<footer> 
-    <div class="container-fluid">
-    <div class="row border border-bottom-0 border-left-0 border-right-0 border-top-1 border-info shadow pt-1 bg-info">
-        <p id="copyright" class="col-md-12 mb-0 text-center text-muted bg-dark pt-5 border border-bottom-0 border-left-0 border-right-0 border-top-1 border-info">
-             Copyright ©
-       </p>
-    </div>
-    </div>
-</footer>
+<footer>
+    <div class="clearfix"></div>
+    <p id="copyright">Copyright &copy;</p>
+</footer>   
 </body>
 </html>
