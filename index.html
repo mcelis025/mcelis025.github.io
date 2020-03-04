@@ -1,53 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Miguel's Portfolio</title>
-    <!--Link to my css-->
-    <link rel="stylesheet" href="assets/css/reset.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"><!--Meta for Resizing-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"><!--Bootstrap-->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Bootstrap Portfolio</title>
 </head>
 <body>
-    <div class="content">
-        <div id="topmenu">
-            <h1 id="myname">Miguel Celis</h1>
-            <!--Links for menu tab--> 
-            <div class="pages">
-            <a href="index.html">About    |</a>
-            <a href="portfolio.html">    Portfolio    |</a>
-            <a href="contact.html">    Contact</a>      
+    <div class="container-fluid">
+        <div class="row border border-top-0 border-right-0 border-left-0 border-bottom-1 border-secondary shadow bg-white">
+            <div class="col-md-3"></div>
+            <div class="col-md-3 pl-0">
+                <h1 id=myName class="text-left text-light bg-info pt-2 pl-4 mr-5 mb-0 mt-0">Miguel Celis</h1>
             </div>
-            <div class="clearfix"></div>
+        <div class="col-md-3 pr-0">
+            <nav class="navbar navbar-expand-md justify-content-end mt-2 ml-3 mr-0 pr-0">
+                    <ul class="navbar-nav">
+                        <li class="nav-item border border-top-0 border-right-1 border-left-0 border-bottom-0 border-secondary">
+                            <a class="nav-link text-secondary lead" href="#">About Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-secondary lead" href="portfolio.html">Portfolio</a>
+                        </li>
+                        <li class="nav-item border border-top-0 border-right-0 border-left-1 border-bottom-0 border-secondary">
+                            <a class="nav-link text-secondary lead pr-0" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+            </nav>
         </div>
-        <!--About Me-->
-            <div class="maintext">
-                <h1 id="sectionname">About Me</h1>
-                <div class="clearfix"></div>
-                <div id="under"></div>
-                    <img id="profilepic" alt= "Profile Picture Miguel" src= "assets/images/Profile_Picture_Miguel.jpg"/>
-                        <p id="firstpara">
-                            Hello! Welcome to Coding Portfolio! Here I will show the work I have done and by doing so you will be able to see what I can bring to the table.
-                            I am an Active Duty military member looking to transition into the technology industry. My current job title is Document Controller.
-                            The job duties consit of:
-                        </p>
-                        <ul class="list">
-                            <li>Inspect documentation to ensure accuracy and reliablility.</li>
-                            <li>Check authorizations to certify the only authorized personnel access records.</li>
-                            <li>Communicate errors through prsoper channels to ensure corrections are made.</li>
-                            <li>Organize and maintain a fileplan to ensure records are accessible.</li>
-                            <li>Ensure audit readiness of fileplan and its contents.</li>
-                        </ul>
-                            My favorite thing to do in my current position is to solving issues that arise. I am able to use my critial thinking skills and work towards a solution. 
-                            The pride I have towards my work has allowed me to be recognized among my peers and be rewarded with the title of Airman of the Quarter. 
-                            The passion I show at work I also show in my personal life. With a great deal of hard work and dedication I was able to obtain a Bachelor's of Science in Criminal Justice. 
-                        <br>
-                        <p>
-                            As a transitioning military member I am looking for a career that will permit me to use my skills. My hard work and dedication will allow me to succeed in this challenging industry.  
-                        </p>
-            </div>
+        <div class="col-md-3"></div>
     </div>
-<footer>
-    <div class="clearfix"></div>
-       <p id="copyright">Copyright &copy;</p>
-</footer>   
+    </div>
+    <div class="container-fluid">
+    <div class="row">
+        <div class="col-md-3"></div>
+        <div class="col-md-6 border border-secondary mt-5 mb-5 shadow bg-white">
+            <div class="container">
+                <div class="row border border-top-0 border-right-0 border-left-0 border-bottom-1 border-secondary">
+                    <h1 class="col-md-12 text-left text-info mt-3 mb-4">About Me</h1>
+                </div>
+                <div class="row clearfix">
+                    <div class="container col-md-12 mt-4">
+                    <img id=profilepic src="img/Profile_Picture_Miguel.jpg" alt="Miguel" class="float-left mb-2 mr-4">
+                        <p class="lead">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam est, perspiciatis natus illum harum et minus, voluptatem recusandae nihil officiis, eveniet mollitia? Labore mollitia aliquid accusantium deserunt officia ad sunt?
+                        </p>
+                        <p class="lead">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui amet mollitia similique architecto rem provident reiciendis asperiores est minima laboriosam odio et, necessitatibus eos alias, quibusdam a ipsa corporis. Fugiat.
+                        </p>
+                        <p class="lead">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui amet mollitia similique architecto rem provident reiciendis asperiores est minima laboriosam odio et, necessitatibus eos alias, quibusdam a ipsa corporis. Fugiat.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3"></div>
+    </div>
+    </div>
+<footer> 
+    <div class="container-fluid">
+    <div class="row border border-bottom-0 border-left-0 border-right-0 border-top-1 border-info shadow pt-1 bg-info">
+            <p id="copyright" class="col-md-12 mb-0 text-center text-muted bg-dark pt-5 border border-bottom-0 border-left-0 border-right-0 border-top-1 border-info">
+                Copyright ©
+            </p>
+    </div>
+    </div>
+</footer>
 </body>
 </html>

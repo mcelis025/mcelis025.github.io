@@ -1,0 +1,67 @@
+#myName {
+    height: 100%; 
+    width: 78%;
+}
+
+#profilepic {
+    width: 170px;
+}
+
+#hangman {
+    width: 100%;
+}
+
+#hangmanText {
+    position: absolute; 
+    bottom: 10%; 
+    width: 100%;
+}
+
+#rpg {
+    width: 100%;
+}
+
+#rpgText {
+    position: absolute; 
+    bottom: 10%; 
+    width: 100%;
+}
+
+#trivia {
+    width: 100%;
+}
+
+#triviaText {
+    position: absolute; 
+    bottom: 10%; 
+    width: 100%;
+}
+
+#rutgers {
+    width: 100%;
+}
+
+#rutgersText {
+    position: absolute; 
+    bottom: 10%; 
+    width: 100%;
+}
+
+#rock {
+    width: 100%;
+}
+
+#rockText {
+    position: absolute; 
+    bottom: 10%; 
+    width: 100%;
+}
+
+body {
+    background-image: url(img/white-waves.png);
+}
+
+#copyright {
+    font-size: 10px;
+    padding-bottom: 10px;
+}
