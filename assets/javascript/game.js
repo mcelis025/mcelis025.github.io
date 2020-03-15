@@ -93,6 +93,5 @@ function resetGame() {
     currentWord.appendChild(newSpan);                                             // Adds contents of newSpan to correct letter --> correctLetter then targets correct-letter and is displayed in html
   }
   image = document.getElementById("picture");                                     // Add placeholder img
-  image = src="assets/images/placeholder.jpg";
   return random;
 }
